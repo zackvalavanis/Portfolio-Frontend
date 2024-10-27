@@ -7,3 +7,12 @@ body,
   /* Full viewport height */
   margin: 0;
 }
+
+body {
+  background: linear-gradient(to right, #4682B4, #B0C4DE);
+  min-height: 100vh;
+  Full viewport height */ background-attachment: fixed;
+
+}
+
+*/

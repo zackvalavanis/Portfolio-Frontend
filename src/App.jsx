@@ -6,6 +6,7 @@ import { MainPage } from './MainPage.jsx'
 import { Contact } from './Contact.jsx'
 import { AboutMe } from './AboutMe.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { ProjectsPage } from './ProjectsPage.jsx';
 
 const router = createBrowserRouter([
   { 
@@ -28,11 +29,14 @@ const router = createBrowserRouter([
       { 
         path: '/About', 
         element: <AboutMe />
+      }, 
+      { 
+        path: '/Projects', 
+        element: <ProjectsPage />
       }
     ]
   }
 ])
-
 
 function App() {
   return (

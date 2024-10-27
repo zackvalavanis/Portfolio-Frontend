@@ -1,8 +1,8 @@
 .header {
   /* Add any styles you need for the header itself */
-  background-color: #333;
+  /* background-color: #001F3F; */
   /* Example background color */
-  padding: 40px;
+  padding: 20px;
   /* Example padding */
 }
 
@@ -26,4 +26,12 @@
 .header-center a:hover {
   text-decoration: underline;
   /* Optional: adds underline on hover */
+}
+
+.img-thumbnail {
+  width: 200px;
+}
+
+.headshot {
+  margin-left: 40px;
 }

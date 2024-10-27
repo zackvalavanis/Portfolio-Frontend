@@ -6,12 +6,9 @@ export function AboutMe () {
       <h1>
         Zack Valavanis
       </h1>
-      <body>
+      <p>
         My name is Zack Valavanis and I am an aspiring software engineer. 
-      </body>
-
-
-
+      </p>
     </div>
   )
 }

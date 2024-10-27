@@ -1,0 +1,26 @@
+.main-page {
+  width: 100%;
+  /* Full width of the container */
+  display: flex;
+  /* Use flexbox for layout */
+  align-items: center;
+  /* Vertically center items in the main page */
+  padding: 20px;
+  /* Optional: add padding to the main page */
+}
+
+.headshot {
+  display: flex;
+  /* Allow image to be a flex item */
+  align-items: center;
+  /* Vertically align the image */
+}
+
+.img-thumbnail {
+  width: 200px;
+  /* Adjust image width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin-left: 0;
+  /* No left margin */
+}
