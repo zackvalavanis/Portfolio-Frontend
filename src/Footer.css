@@ -1,0 +1,27 @@
+/* Content flex property to push the footer down */
+.App-content {
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.footer a {
+  color: white;
+  /* Makes links white */
+  text-decoration: none;
+  /* Removes the underline */
+  margin: 0 15px;
+  /* Optional: adds horizontal space between links */
+  font-size: 20px;
+}
