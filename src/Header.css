@@ -1,9 +1,5 @@
 .header {
-  /* Add any styles you need for the header itself */
-  /* background-color: #001F3F; */
-  /* Example background color */
   padding: 20px;
-  /* Example padding */
 }
 
 .header-center {
@@ -24,8 +20,7 @@
 }
 
 .header-center a:hover {
-  text-decoration: underline;
-  /* Optional: adds underline on hover */
+  font-weight: bold;
 }
 
 .img-thumbnail {
@@ -34,4 +29,12 @@
 
 .headshot {
   margin-left: 40px;
+}
+
+.active-link {
+  color: #000000;
+  /* Highlight color for the active page */
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+  /* Optional underline for active link */
 }

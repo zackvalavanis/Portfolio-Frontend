@@ -1,0 +1,24 @@
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.left-section {
+  margin-left: 40px;
+  /* Adjust as necessary to move the image left */
+  margin-bottom: 20px
+}
+
+.img-thumbnail {
+  width: 150px;
+  /* Size of the headshot */
+  border-radius: 50%;
+  /* Optional: makes the image circular */
+}
+
+.name-title,
+.section-title {
+  margin-top: 0;
+}

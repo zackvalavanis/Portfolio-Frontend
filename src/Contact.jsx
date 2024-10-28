@@ -40,15 +40,6 @@ export function Contact() {
           </div>
         </div>
         <div className="input-group">
-          <div className="input-item">
-            <label>Phone Number:</label>
-            <PhoneInput
-              name='phone-number'
-              value={phoneNumber}
-              onChange={setPhoneNumber}
-              placeholder='Phone number'
-            />
-          </div>
         </div>
         {/* Message section separated at the bottom */}
         <div className="message-section">
