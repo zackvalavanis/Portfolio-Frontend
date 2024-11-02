@@ -1,11 +1,10 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 import 'react-phone-number-input/style.css';
-import PhoneInput from 'react-phone-number-input';
+
 
 export function Contact() {
-  const [phoneNumber, setPhoneNumber] = useState("");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -28,6 +27,7 @@ export function Contact() {
 
   return ( 
     <div className='contact-form'>
+      <h1>Contact Me</h1>
       <form ref={form} onSubmit={sendEmail}>
         <div className="input-group">
           <div className="input-item">
@@ -41,7 +41,6 @@ export function Contact() {
         </div>
         <div className="input-group">
         </div>
-        {/* Message section separated at the bottom */}
         <div className="message-section">
           <label>Message:</label>
           <textarea name='message' placeholder='Message...' required />

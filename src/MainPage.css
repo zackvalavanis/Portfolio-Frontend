@@ -108,3 +108,10 @@
   object-fit: cover;
   /* Ensure the image covers the circle */
 }
+
+.container-contact {
+  width: 100%;
+  /* Full width */
+  max-width: 100%;
+  /* Optional: Limit the max width */
+}

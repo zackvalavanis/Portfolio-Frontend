@@ -63,8 +63,11 @@ export function MainPage() {
       <ProjectsPage/>
     </section>
     <section id='contact'>
+      <div className='container-contact'>
       <Contact />
+      </div>
     </section>
+    
     </div>
 
   );
