@@ -6,13 +6,27 @@ body,
   min-height: 100vh;
   /* Full viewport height */
   margin: 0;
+  animation: fadeIn 1s ease;
+  /* Apply fade-in animation */
 }
 
 body {
   background: linear-gradient(to right, #4682B4, #B0C4DE);
   min-height: 100vh;
-  Full viewport height */ background-attachment: fixed;
-
+  /* Full viewport height */
+  background-attachment: fixed;
+  /* Fixed background */
 }
 
-*/
+/* Fade-in animation keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    /* Start fully transparent */
+  }
+
+  100% {
+    opacity: 1;
+    /* End fully opaque */
+  }
+}

@@ -1,26 +1,110 @@
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(-100%);
+    /* Start off-screen to the left */
+    opacity: 0;
+    /* Start invisible */
+  }
+
+  100% {
+    transform: translateX(0);
+    /* End at original position */
+    opacity: 1;
+    /* Fully visible */
+  }
+}
+
 .main-page {
-  width: 100%;
-  /* Full width of the container */
   display: flex;
-  /* Use flexbox for layout */
-  align-items: center;
-  /* Vertically center items in the main page */
-  padding: 20px;
-  /* Optional: add padding to the main page */
+  flex-direction: column;
+  margin-top: 15em;
+  text-align: center;
+  height: 100em;
+  overflow: hidden;
+  /* Prevent overflow during animation */
 }
 
-.headshot {
-  display: flex;
-  /* Allow image to be a flex item */
-  align-items: center;
-  /* Vertically align the image */
+.my-name {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-wrap: break-word;
+  margin-left: 3em;
+  width: 300px;
+  opacity: 0;
+  /* Start invisible */
+  animation: slideInFromRight 0.8s ease forwards;
+  /* Apply animation */
 }
 
-.img-thumbnail {
-  width: 200px;
-  /* Adjust image width as needed */
-  height: auto;
-  /* Maintain aspect ratio */
-  margin-left: 0;
-  /* No left margin */
+.my-name2 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 550px;
+  margin-left: 4em;
+  opacity: 0;
+  /* Start invisible */
+  animation: slideInFromRight 0.8s ease forwards;
+  /* Apply animation */
+  animation-delay: 0.3s;
+  /* Delay the second element to slide in slightly after the first */
+}
+
+.button-about {
+  opacity: 0;
+  /* Start invisible */
+  animation: slideInFromRight 0.8s ease forwards;
+  /* Apply animation */
+  animation-delay: 0.6s;
+  /* Delay the button to slide in after the text */
+  margin-right: 53em;
+  /* Adjust margin to position the button */
+  color: white;
+  /* Text color */
+  text-decoration: none;
+  /* Remove underline from link */
+}
+
+.button-about button {
+  background-color: transparent;
+  /* Make the button background transparent */
+  border: 2px solid white;
+  /* Border color */
+  border-radius: 40px;
+  padding: 10px 20px;
+  /* Padding for the button */
+  cursor: pointer;
+  /* Show pointer cursor on hover */
+  font-size: 20px;
+  /* Adjust font size */
+  transition: color 0.3s, background-color 0.3s;
+  /* Smooth transition for hover effects */
+}
+
+.button-about button:hover {
+  color: black;
+  /* Change text color on hover */
+  background-color: white;
+  /* Add background color on hover */
+}
+
+.mimoji-container {
+  position: absolute;
+  /* Position the container absolutely */
+  right: 20em;
+  /* Adjust to create space from the right edge */
+  top: 40%;
+  /* Center vertically in the viewport */
+  transform: translateY(-50%);
+  /* Offset to center the image */
+}
+
+.mimoji {
+  width: 400px;
+  /* Set a fixed width */
+  height: 400px;
+  /* Set a fixed height to make it a circle */
+  border-radius: 50%;
+  /* Make it circular */
+  object-fit: cover;
+  /* Ensure the image covers the circle */
 }

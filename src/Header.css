@@ -1,40 +1,62 @@
-.header {
-  padding: 20px;
-}
+/* Header.css */
 
-.header-center {
-  display: flex;
-  justify-content: center;
-  /* Center the links */
-  align-items: center;
-  /* Vertically center the links */
-}
-
-.header-center a {
-  color: white;
-  /* Makes links white */
-  text-decoration: none;
-  /* Removes the underline */
-  margin: 0 15px;
-  /* Optional: adds horizontal space between links */
-}
-
-.header-center a:hover {
+.logo {
+  font-size: 24px;
+  /* Adjust font size as needed */
   font-weight: bold;
+  /* Make it bold for emphasis */
+  color: #000;
+  /* Change color to your preference */
+  text-decoration: none;
+  /* Remove underline from the link */
+  padding: 10px 15px;
+  /* Add some padding around the logo */
+  border-radius: 5px;
+  /* Optional: rounded corners */
+  transition: background-color 0.3s;
+  /* Smooth transition for hover effect */
 }
 
-.img-thumbnail {
-  width: 200px;
+/* Optional: Change background color on hover */
+.logo:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Light background on hover */
+  color: #007bff;
+  /* Change color on hover */
 }
 
-.headshot {
-  margin-left: 40px;
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,...");
+  /* Default icon or custom SVG */
+}
+
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-item a {
+  color: #343a40;
+  /* Dark gray text */
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #007bff;
+  /* Light blue on hover */
+  background-color: #e9ecef;
+  /* Light gray background */
+  border-radius: 5px;
 }
 
 .active-link {
-  color: #000000;
-  /* Highlight color for the active page */
+  color: #007bff;
+  /* Blue color for active link */
   font-weight: bold;
   border-bottom: 2px solid #007bff;
-  /* Optional underline for active link */
+  /* Adds underline effect to active link */
 }

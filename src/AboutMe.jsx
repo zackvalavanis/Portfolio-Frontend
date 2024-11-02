@@ -9,6 +9,7 @@ export function AboutMe() {
 
       <h1 className="name-title">Zack Valavanis</h1>
       <h2 className="section-title">About Me</h2>
+      <div className='writing'>
       <p>
         I'm Zack Valavanis, an aspiring software engineer with a robust background in finance and a knack for creating
         data-driven solutions that drive meaningful results. Based in Chicago, I have over four years of experience
@@ -30,6 +31,7 @@ export function AboutMe() {
         insights with actionable strategies. This experience, coupled with my newly acquired software engineering skills,
         allows me to bring a unique perspective to projects, focusing on both technical execution and strategic impact.
       </p>
+      </div>
       <h3>Core Competencies:</h3>
       <ul>
         <li>Business Systems & Data Analytics</li>
