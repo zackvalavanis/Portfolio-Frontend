@@ -26,7 +26,7 @@ export function AboutMe() {
       </p>
       <p>
         Throughout my career, I have developed core competencies in business systems, operational efficiency, and data
-        analysis, which I’m excited to apply in a tech-driven role. From managing a $1.7 billion portfolio at Neuberger
+        analysis, which I’m excited to apply in a tech-driven role. From managing a $2.7 billion portfolio at Neuberger
         Berman to orchestrating cost savings of $200,000 at Accenture, I have a proven record of blending analytical
         insights with actionable strategies. This experience, coupled with my newly acquired software engineering skills,
         allows me to bring a unique perspective to projects, focusing on both technical execution and strategic impact.
