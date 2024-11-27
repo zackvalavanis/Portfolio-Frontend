@@ -1,28 +1,14 @@
 .about-me-container {
+  background-color: rgba(0, 0, 0, 0.827);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  /* Centering the content horizontally */
   padding: 20px;
 }
 
-.left-section {
-  margin-left: 40px;
-  /* Adjust as necessary to move the image left */
-  margin-bottom: 20px
-}
-
-.img-thumbnail {
-  width: 150px;
-  /* Size of the headshot */
-  border-radius: 50%;
-  /* Optional: makes the image circular */
-}
-
-.name-title,
-.section-title {
-  margin-top: 0;
-}
-
-.writing {
-  font-family: sans-serif;
+.head-comment {
+  text-align: center;
+  color: white
+    /* Ensures text within the h1 is centered */
 }

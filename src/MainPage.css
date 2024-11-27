@@ -1,39 +1,32 @@
 @keyframes slideInFromRight {
   0% {
     transform: translateX(-100%);
-    /* Start off-screen to the left */
     opacity: 0;
-    /* Start invisible */
   }
 
   100% {
     transform: translateX(0);
-    /* End at original position */
     opacity: 1;
-    /* Fully visible */
   }
 }
 
 .main-page {
   display: flex;
   flex-direction: column;
-  margin-top: 15em;
   text-align: center;
-  height: 100em;
+  height: 55em;
   overflow: hidden;
-  /* Prevent overflow during animation */
 }
 
 .my-name {
   font-size: 60px;
+  margin-top: 5em;
   font-family: Arial, Helvetica, sans-serif;
   overflow-wrap: break-word;
   margin-left: 3em;
   width: 300px;
   opacity: 0;
-  /* Start invisible */
   animation: slideInFromRight 0.8s ease forwards;
-  /* Apply animation */
 }
 
 .my-name2 {
@@ -42,76 +35,49 @@
   width: 550px;
   margin-left: 4em;
   opacity: 0;
-  /* Start invisible */
   animation: slideInFromRight 0.8s ease forwards;
-  /* Apply animation */
   animation-delay: 0.3s;
-  /* Delay the second element to slide in slightly after the first */
 }
 
 .button-about {
   opacity: 0;
-  /* Start invisible */
   animation: slideInFromRight 0.8s ease forwards;
-  /* Apply animation */
   animation-delay: 0.6s;
-  /* Delay the button to slide in after the text */
   margin-right: 53em;
-  /* Adjust margin to position the button */
   color: white;
-  /* Text color */
   text-decoration: none;
-  /* Remove underline from link */
 }
 
 .button-about button {
   background-color: transparent;
-  /* Make the button background transparent */
   border: 2px solid white;
-  /* Border color */
   border-radius: 40px;
   padding: 10px 20px;
-  /* Padding for the button */
   cursor: pointer;
-  /* Show pointer cursor on hover */
   font-size: 20px;
-  /* Adjust font size */
   transition: color 0.3s, background-color 0.3s;
-  /* Smooth transition for hover effects */
 }
 
 .button-about button:hover {
   color: black;
-  /* Change text color on hover */
   background-color: white;
-  /* Add background color on hover */
-}
-
-.mimoji-container {
-  position: absolute;
-  /* Position the container absolutely */
-  right: 20em;
-  /* Adjust to create space from the right edge */
-  top: 40%;
-  /* Center vertically in the viewport */
-  transform: translateY(-50%);
-  /* Offset to center the image */
-}
-
-.mimoji {
-  width: 400px;
-  /* Set a fixed width */
-  height: 400px;
-  /* Set a fixed height to make it a circle */
-  border-radius: 50%;
-  /* Make it circular */
-  object-fit: cover;
-  /* Ensure the image covers the circle */
 }
 
 .container-contact {
   width: 100%;
-  /* Full width */
   max-width: 100%;
-  /* Optional: Limit the max width */
+}
+
+.left-section {
+  margin-left: 50em;
+  /* Adjust horizontal positioning */
+  margin-bottom: 0;
+  /* Reduce the large bottom margin */
+  margin-top: -17em;
+}
+
+
+.img-thumbnail {
+  width: 350px;
+  border-radius: 20%;
 }
