@@ -43,11 +43,6 @@ export function AboutMe() {
       {/* Card 1 */}
       <Card sx={{ maxWidth: 1000 }}>
         <CardHeader
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
           title="Neuberger Berman"
           subheader='Analytics Analyst'
         />
@@ -88,11 +83,6 @@ export function AboutMe() {
       {/* Card 2 */}
       <Card sx={{ maxWidth: 1000, marginTop: 2 }}>
         <CardHeader
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
           title="Accenture"
           subheader='Real Estate Management Analyst'
         />
@@ -133,11 +123,6 @@ export function AboutMe() {
       {/* Card 3 */}
       <Card sx={{ maxWidth: 1000, marginTop: 2 }}>
         <CardHeader
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
           title="Advantage Futures"
           subheader='Risk Analyst'
         />
@@ -177,11 +162,6 @@ export function AboutMe() {
       {/* Card 4 */}
       <Card sx={{ maxWidth: 1000, marginTop: 2 }}>
         <CardHeader
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
           title="OnShore Security"
           subheader='Assistant to the CFO - Intern'
         />
