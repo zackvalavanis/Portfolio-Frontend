@@ -15,6 +15,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Link } from 'react-router-dom'
 
 export function AboutMe() {
   // Track the expanded card by its index
@@ -42,9 +43,19 @@ export function AboutMe() {
 
       {/* Card 1 */}
       <Card sx={{ maxWidth: 1000 }}>
-        <CardHeader
+          <CardHeader
+            avatar={
+            <a href="https://www.linkedin.com/company/neuberger-berman/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+              <CardMedia
+              component="img"
+              sx={{ height: 20, width: 20 }} // Adjust size here
+              image="src/assets/Images/NB Logo.jpeg"
+              alt="Neuberger Berman Logo"
+            />
+            </a>
+          }
           title="Neuberger Berman"
-          subheader='Analytics Analyst'
+          subheader="Analytics Analyst"
         />
         <CardContent>
           <p><b>Summary:</b></p>
@@ -82,10 +93,21 @@ export function AboutMe() {
 
       {/* Card 2 */}
       <Card sx={{ maxWidth: 1000, marginTop: 2 }}>
-        <CardHeader
+      <CardHeader
+            avatar={
+            <a href='https://www.linkedin.com/company/accenture/posts/?feedView=all' target="_blank" rel="noopener noreferrer">
+            <CardMedia
+              component="img"
+              sx={{ height: 20, width: 20 }} // Adjust size here
+              image="src/assets/Images/Accenture Logo.png"
+              alt="Accenture Logo"
+            />
+            </a>
+          }
           title="Accenture"
-          subheader='Real Estate Management Analyst'
+          subheader="Real Estate Management Analyst"
         />
+        
         <CardContent>
           <p><b>Summary:</b></p>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -123,6 +145,16 @@ export function AboutMe() {
       {/* Card 3 */}
       <Card sx={{ maxWidth: 1000, marginTop: 2 }}>
         <CardHeader
+          avatar={
+            <a href='https://www.linkedin.com/company/advantage-futures/posts/?feedView=all' target="_blank" rel="noopener noreferrer">
+              <CardMedia 
+              component="img"
+              sx={{ height: 20, width: 20 }} // Adjust size here
+              image="src/assets/Images/Advantage Futures Logo.jpeg"
+              alt="Advantage Futures Logo"
+            />
+            </a>
+          }
           title="Advantage Futures"
           subheader='Risk Analyst'
         />
@@ -162,6 +194,16 @@ export function AboutMe() {
       {/* Card 4 */}
       <Card sx={{ maxWidth: 1000, marginTop: 2 }}>
         <CardHeader
+          avatar={ 
+            <a href='https://www.linkedin.com/company/onshoresecurity/posts/?feedView=all' target='blank' rel="noopener noreferrer">
+            <CardMedia 
+              component="img"
+              sx={{ height: 30, width: 30 }} // Adjust size here
+              image="src/assets/Images/Onshore Logo.jpeg"
+              alt="OnShore Logo"
+            />
+            </a>
+          }
           title="OnShore Security"
           subheader='Assistant to the CFO - Intern'
         />
