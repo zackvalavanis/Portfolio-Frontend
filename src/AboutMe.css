@@ -12,3 +12,8 @@
   color: white
     /* Ensures text within the h1 is centered */
 }
+
+.resume-text {
+  padding: 20px;
+  color: white;
+}

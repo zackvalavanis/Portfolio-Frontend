@@ -17,6 +17,13 @@
   /* Smooth transition for hover effect */
 }
 
+.active-link {
+  text-decoration: underline;
+  /* Underline the active link */
+  font-weight: bold;
+  /* Optional: Make the active link bold */
+}
+
 /* Optional: Change background color on hover */
 .logo:hover {
   background-color: rgba(0, 0, 0, 0.1);
@@ -53,10 +60,10 @@
   border-radius: 5px;
 }
 
-.active-link {
-  color: #007bff;
-  /* Blue color for active link */
+.nav-link.active-link {
+  text-decoration: underline;
+  /* Add underline to active link */
   font-weight: bold;
-  border-bottom: 2px solid #007bff;
-  /* Adds underline effect to active link */
+  /* Optional: Make the active link bold */
+  /* Optional: Change color of the active link */
 }

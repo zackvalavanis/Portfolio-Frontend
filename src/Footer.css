@@ -11,22 +11,39 @@
 
 /* Footer styling */
 .footer {
+  padding: 30px;
   background-color: #001F3F;
   color: #fff;
   text-align: center;
   position: relative;
-  padding: 30px;
   width: 100%;
   z-index: 1000;
 }
 
 /* Icon link styling */
-.icon-link {
+.icon-link,
+.icon-link-2 {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
+  /* Make sure both icons have the same size */
   transition: color 0.3s ease;
+  display: inline-flex;
+  /* Use flex to center icons */
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+  /* Space between icons */
 }
 
-.icon-link:hover {
+/* Hover effect for both icons */
+.icon-link:hover,
+.icon-link-2:hover {
   color: #0077B5;
+  /* Change the color on hover */
+}
+
+/* Optional: Further adjust size of MUI icon */
+.icon-link-2 .MuiSvgIcon-root {
+  font-size: 30px;
+  /* Ensure GitHubIcon has the same size */
 }
