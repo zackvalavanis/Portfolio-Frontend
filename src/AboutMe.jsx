@@ -48,18 +48,18 @@ export function AboutMe() {
             <a href="https://www.linkedin.com/company/neuberger-berman/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
               <CardMedia
               component="img"
-              sx={{ height: 20, width: 20 }} // Adjust size here
+              sx={{ height: 40, width: 40 }} // Adjust size here
               image="src/assets/Images/NB Logo.jpeg"
               alt="Neuberger Berman Logo"
             />
             </a>
           }
-          title="Neuberger Berman"
+          title="Neuberger Berman"  
           subheader="Analytics Analyst"
         />
         <CardContent>
           <p><b>Summary:</b></p>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+          <Typography>
             Worked as an Analytics Analyst at Neuberger Berman, managing a $2.7B portfolio and delivering 1%+ alpha. Developed tax-efficient strategies, cutting clients' capital gains taxes by up to 10%, and created a VBA automation that saved 12 hours annually. Helped grow the portfolio by $100M, enhancing client trust and efficiency.
           </Typography>
         </CardContent>
@@ -98,7 +98,7 @@ export function AboutMe() {
             <a href='https://www.linkedin.com/company/accenture/posts/?feedView=all' target="_blank" rel="noopener noreferrer">
             <CardMedia
               component="img"
-              sx={{ height: 20, width: 20 }} // Adjust size here
+              sx={{ height: 40, width: 40 }} // Adjust size here
               image="src/assets/Images/Accenture Logo.png"
               alt="Accenture Logo"
             />
@@ -110,7 +110,7 @@ export function AboutMe() {
         
         <CardContent>
           <p><b>Summary:</b></p>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+          <Typography>
             As a Real Estate Management Analyst at Accenture, I focused on optimizing real estate portfolios, providing strategic insights that contributed to reducing costs and improving overall performance. My work involved detailed data analysis, cost-benefit assessments, and strategic planning.
           </Typography>
         </CardContent>
@@ -149,7 +149,7 @@ export function AboutMe() {
             <a href='https://www.linkedin.com/company/advantage-futures/posts/?feedView=all' target="_blank" rel="noopener noreferrer">
               <CardMedia 
               component="img"
-              sx={{ height: 20, width: 20 }} // Adjust size here
+              sx={{ height: 40, width: 40 }} // Adjust size here
               image="src/assets/Images/Advantage Futures Logo.jpeg"
               alt="Advantage Futures Logo"
             />
@@ -160,7 +160,7 @@ export function AboutMe() {
         />
         <CardContent>
           <p><b>Summary:</b></p>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+          <Typography>
             As a Risk Analyst at Advantage Futures, I analyzed market risk, developed risk management strategies, and implemented systems to minimize exposure. My work helped the team make informed decisions on managing portfolios and mitigating risk factors in volatile market conditions.
           </Typography>
         </CardContent>
@@ -198,7 +198,7 @@ export function AboutMe() {
             <a href='https://www.linkedin.com/company/onshoresecurity/posts/?feedView=all' target='blank' rel="noopener noreferrer">
             <CardMedia 
               component="img"
-              sx={{ height: 30, width: 30 }} // Adjust size here
+              sx={{ height: 40, width: 40 }} // Adjust size here
               image="src/assets/Images/Onshore Logo.jpeg"
               alt="OnShore Logo"
             />
@@ -209,7 +209,7 @@ export function AboutMe() {
         />
         <CardContent>
           <p><b>Summary:</b></p>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+          <Typography >
           Worked closely with the CFO to enhance financial reporting and data integration, improving efficiency and accuracy across key financial processes. Led initiatives that optimized decision-making and forecasting through improved data visualization and streamlined reporting systems.
           </Typography>
         </CardContent>

@@ -47,9 +47,14 @@ export function MainPage() {
     <div id="particles-js" style={{ position: 'absolute', width: '100%', height: '100%', zIndex: -1 }}></div>
       <h1 className='my-name'><b>Hello,</b></h1>
       <h2 className='my-name2'><b>I'm Zack Valavanis</b></h2>
+      <div className='button-container'>
       <a className= 'button-about' href='#about'>
       <button>About Me</button>
       </a>
+      <a className= 'button-projects' href='#projects'>
+      <button>My Projects</button>
+      </a>
+      </div>
       <div className='left-section'>
         <img src="https://media.licdn.com/dms/image/v2/D5603AQFrVp2Q-bSEew/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702063595689?e=1735776000&v=beta&t=EflgIjIMgEL7fHiefDT2lUcTlOl2m_10tZ276r0TwTk" className="img-thumbnail"></img>
       </div> 
