@@ -14,7 +14,7 @@ export function ProjectsPage() {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          View Project
+          Website
         </a>
         <a 
           href='https://github.com/zackvalavanis/Capstone_To_Do'
