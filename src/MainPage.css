@@ -47,6 +47,14 @@
   animation-delay: 0.6s;
 }
 
+.button-about a,
+.button-projects a {
+  text-decoration: none;
+  /* Remove any link underlines */
+  color: white;
+  /* Set text color to white */
+}
+
 .button-about button,
 .button-projects button {
   background-color: transparent;
