@@ -14,6 +14,29 @@
 }
 
 .resume-text {
-  padding: 20px;
+  padding: 10px;
+  margin-right: 0;
+  /* Remove the individual right margins */
+  opacity: 0;
+  animation: slideInFromRight 0.8s ease forwards;
+  animation-delay: 0.6s;
   color: white;
+  text-decoration: none;
+}
+
+.resume-button {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.resume-button:hover {
+  background-color: white;
+  color: black
 }

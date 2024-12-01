@@ -238,7 +238,7 @@ export function AboutMe() {
         </Collapse>
       </Card>
       <h1 className='resume-text'>Checkout My Resume</h1>
-      <a href='src/assets/ZackValavanisResume.pdf'>Resume</a>
+      <a href='src/assets/ZackValavanisResume.pdf' className='resume-button'>Resume</a>
     </div>
   );
 }
