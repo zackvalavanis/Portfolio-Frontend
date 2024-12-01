@@ -1,5 +1,8 @@
 import './Header.css';
 import { NavLink, useLocation } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+
 
 export function Header() {
   const location = useLocation();
