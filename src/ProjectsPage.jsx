@@ -9,6 +9,7 @@ export function ProjectsPage() {
       <div className="project-item">
         <h2>Calendar</h2>
         <p>Check out my latest project:</p>
+        <div className='linked-items'>
         <a 
           href="https://capstone-to-do-frontend-a91vy1orq-zackvalavanis-projects.vercel.app/" 
           target="_blank" 
@@ -35,6 +36,7 @@ export function ProjectsPage() {
           src="/Images/Calendar.jpg" /* Ensure the path is correct */
           alt="Calendar Project Preview"
         />
+        </div>
       </div>
     </div>
   );
