@@ -67,3 +67,119 @@
   /* Optional: Make the active link bold */
   /* Optional: Change color of the active link */
 }
+
+/* Header.css */
+
+/* Logo Styles */
+.logo {
+  font-size: 24px;
+  /* Adjust font size as needed */
+  font-weight: bold;
+  /* Make it bold for emphasis */
+  color: #000;
+  /* Change color to your preference */
+  text-decoration: none;
+  /* Remove underline */
+  padding: 10px 15px;
+  /* Add padding around the logo */
+  border-radius: 5px;
+  /* Optional: rounded corners */
+  transition: background-color 0.3s;
+  /* Smooth transition for hover effect */
+}
+
+/* Active link styles */
+.active-link {
+  text-decoration: underline;
+  /* Underline the active link */
+  font-weight: bold;
+  /* Optional: Make the active link bold */
+  color: #007bff;
+  /* Optional: Change color of the active link */
+}
+
+/* Hover effect for logo */
+.logo:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Light background on hover */
+  color: #007bff;
+  /* Change color on hover */
+}
+
+/* Navbar and links */
+.navbar-light .navbar-nav .nav-link {
+  color: #343a40;
+  /* Dark gray text */
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  /* Adjust padding */
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for nav items */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #007bff;
+  /* Light blue on hover */
+  background-color: #e9ecef;
+  /* Light gray background */
+  border-radius: 5px;
+}
+
+/* Ensure all navbar items are aligned to the left */
+.navbar-nav {
+  margin-left: 0;
+  /* Remove any left margin */
+}
+
+.nav-item {
+  margin-left: 1rem;
+  /* Add spacing between nav items */
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+
+  /* Logo styling for mobile */
+  .logo {
+    font-size: 20px;
+    /* Slightly smaller font size for mobile */
+    padding: 5px 10px;
+    /* Adjust padding */
+  }
+
+  /* Navbar collapse for mobile */
+  .navbar-collapse {
+    text-align: left;
+    /* Align the links to the left when collapsed */
+    margin-top: 1rem;
+  }
+
+  /* Align navbar items to the left on mobile */
+  .navbar-nav {
+    padding-top: 0.5rem;
+    /* Adjust padding */
+  }
+
+  /* Ensure proper margin for nav items */
+  .nav-item {
+    margin-left: 0;
+    /* Remove margin for nav items */
+    margin-right: 0;
+    /* Remove right margin */
+  }
+
+  /* Nav link style for mobile */
+  .nav-link {
+    font-size: 0.9rem;
+    /* Smaller text on mobile */
+    padding: 10px 15px;
+    /* More padding for easier tapping */
+  }
+
+  /* Ensure the hamburger menu icon is properly visible */
+  .navbar-toggler-icon {
+    background-color: #007bff;
+    /* Customize the icon color */
+  }
+}

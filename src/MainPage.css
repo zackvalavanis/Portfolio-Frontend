@@ -13,52 +13,38 @@
 .main-page {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  height: 55em;
-  overflow: hidden;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
 }
 
-.my-name {
-  font-size: 60px;
-  margin-top: 5em;
+.my-name,
+.my-name2 {
+  font-size: 4vw;
+  /* Scalable based on viewport size */
+  margin: 0.5em 0;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-wrap: break-word;
-  margin-left: 3em;
-  width: 300px;
-  opacity: 0;
   animation: slideInFromRight 0.8s ease forwards;
 }
 
 .my-name2 {
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 550px;
-  margin-left: 4em;
-  opacity: 0;
-  animation: slideInFromRight 0.8s ease forwards;
   animation-delay: 0.3s;
 }
 
 .button-container {
   display: flex;
-  justify-content: center;
-  /* Centers the buttons horizontally */
-  gap: 20px;
-  /* Adds space between the buttons */
-  margin-top: 20px;
-  /* Optional: Adjust spacing above the buttons */
-  margin-right: 30em;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .button-about,
 .button-projects {
-  margin-right: 0;
-  /* Remove the individual right margins */
   opacity: 0;
   animation: slideInFromRight 0.8s ease forwards;
   animation-delay: 0.6s;
-  color: white;
-  text-decoration: none;
 }
 
 .button-about button,
@@ -66,9 +52,10 @@
   background-color: transparent;
   border: 2px solid white;
   border-radius: 40px;
-  padding: 10px 20px;
+  padding: 0.8rem 2rem;
+  font-size: 2rem;
+  /* Adjust button size for mobile */
   cursor: pointer;
-  font-size: 20px;
   transition: color 0.3s, background-color 0.3s;
 }
 
@@ -78,21 +65,50 @@
   background-color: white;
 }
 
-.container-contact {
-  width: 100%;
-  max-width: 100%;
-}
-
 .left-section {
-  margin-left: 50em;
-  /* Adjust horizontal positioning */
-  margin-bottom: 0;
-  /* Reduce the large bottom margin */
-  margin-top: -17em;
+  margin-top: 1rem;
 }
-
 
 .img-thumbnail {
-  width: 350px;
+  width: 20vw;
+  /* Make image size responsive */
+  max-width: 200px;
+  /* Limit image size */
   border-radius: 20%;
+}
+
+/* Particle background adjustment */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Media queries for small screens */
+@media (max-width: 768px) {
+
+  .my-name,
+  .my-name2 {
+    font-size: 8vw;
+    /* Larger font for small screens */
+  }
+
+  .button-about button,
+  .button-projects button {
+    font-size: 4vw;
+    /* Bigger buttons for smaller screens */
+  }
+
+  .img-thumbnail {
+    width: 70vw;
+    /* Bigger image on smaller screens */
+    max-width: none;
+  }
+
+  .button-container {
+    flex-direction: column;
+    /* Stack buttons vertically on small screens */
+    align-items: center;
+  }
 }
