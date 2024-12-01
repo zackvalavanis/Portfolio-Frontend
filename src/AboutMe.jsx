@@ -49,7 +49,7 @@ export function AboutMe() {
               <CardMedia
               component="img"
               sx={{ height: 40, width: 40 }} // Adjust size here
-              image="src/assets/Images/NB Logo.jpeg"
+              image="public/Images/NB Logo.jpeg"
               alt="Neuberger Berman Logo"
             />
             </a>
@@ -99,7 +99,7 @@ export function AboutMe() {
             <CardMedia
               component="img"
               sx={{ height: 40, width: 40 }} // Adjust size here
-              image="src/assets/Images/Accenture Logo.png"
+              image="public/Images/Accenture Logo.png"
               alt="Accenture Logo"
             />
             </a>
@@ -150,7 +150,7 @@ export function AboutMe() {
               <CardMedia 
               component="img"
               sx={{ height: 40, width: 40 }} // Adjust size here
-              image="src/assets/Images/Advantage Futures Logo.jpeg"
+              image="public/Images/Advantage Futures Logo.jpeg"
               alt="Advantage Futures Logo"
             />
             </a>
@@ -199,7 +199,7 @@ export function AboutMe() {
             <CardMedia 
               component="img"
               sx={{ height: 40, width: 40 }} // Adjust size here
-              image="src/assets/Images/Onshore Logo.jpeg"
+              image="public/Images/Onshore Logo.jpeg"
               alt="OnShore Logo"
             />
             </a>
@@ -238,7 +238,7 @@ export function AboutMe() {
         </Collapse>
       </Card>
       <h1 className='resume-text'>Checkout My Resume</h1>
-      <a href='src/assets/ZackValavanisResume.pdf' className='resume-button'>Resume</a>
+      <a href='public/ZackValavanisResume.pdf' className='resume-button'>Resume</a>
     </div>
   );
 }
