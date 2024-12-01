@@ -32,7 +32,7 @@ export function ProjectsPage() {
         </a>
         {/* Project Preview - Image */}
         <img 
-          src="public/Images/Calendar .jpg" /* Ensure the path is correct */
+          src="public/Images/Calendar.jpg" /* Ensure the path is correct */
           alt="Calendar Project Preview"
         />
       </div>
