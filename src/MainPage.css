@@ -24,10 +24,11 @@
 .my-name,
 .my-name2 {
   font-size: 4vw;
-  /* Scalable based on viewport size */
   margin: 0.3em 0;
   font-family: Arial, Helvetica, sans-serif;
   animation: slideInFromRight 0.8s ease forwards;
+  color: #333;
+  /* Consistent text color for both mobile and desktop */
 }
 
 .my-name2 {
@@ -50,9 +51,8 @@
 .button-about a,
 .button-projects a {
   text-decoration: none;
-  /* Remove any link underlines */
   color: white;
-  /* Set text color to white */
+  /* Link color for buttons */
 }
 
 .button-about button,
@@ -62,7 +62,6 @@
   border-radius: 40px;
   padding: 0.8rem 1rem;
   font-size: 2rem;
-  /* Adjust button size for mobile */
   cursor: pointer;
   transition: color 0.3s, background-color 0.3s;
 }
@@ -79,9 +78,7 @@
 
 .img-thumbnail {
   width: 25vw;
-  /* Make image size responsive */
   max-width: 300px;
-  /* Limit image size */
   border-radius: 20%;
 }
 
@@ -99,25 +96,23 @@
   .my-name,
   .my-name2 {
     font-size: 8vw;
-    /* Larger font for small screens */
+    color: #333;
+    /* Keep the text color consistent on mobile */
   }
 
   .button-about button,
   .button-projects button {
     text-decoration: none;
     font-size: 4vw;
-    /* Bigger buttons for smaller screens */
   }
 
   .img-thumbnail {
     width: 70vw;
-    /* Bigger image on smaller screens */
     max-width: none;
   }
 
   .button-container {
     flex-direction: column;
-    /* Stack buttons vertically on small screens */
     align-items: center;
   }
 }
