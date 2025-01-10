@@ -11,7 +11,7 @@ export function Header() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         {/* Logo */}
-        <NavLink to={location.pathname === '/MyInterests' ? '/' : '/'} className="logo">
+        <NavLink to={location.pathname === '/Blog' ? '/' : '/'} className="logo">
           ZV
         </NavLink>
 
@@ -25,7 +25,7 @@ export function Header() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink 
-                to={location.pathname === '/MyInterests' ? '/' : '/'} 
+                to={location.pathname === '/Blog' ? '/' : '/'} 
                 className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}
               >
                 Home
@@ -33,14 +33,14 @@ export function Header() {
             </li>
 
             {/* Conditional Links */}
-            {location.pathname !== '/MyInterests' && (
+            {location.pathname !== '/Blog' && (
               <li className="nav-item">
                 <a href="#projects" className="nav-link">
                   My Projects
                 </a>
               </li>
             )}
-            {location.pathname !== '/MyInterests' && (
+            {location.pathname !== '/Blog' && (
               <li className="nav-item">
                 <a href="#about" className="nav-link">
                   About Me
