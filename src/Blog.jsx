@@ -17,7 +17,7 @@ export function Blog () {
         </Typography>
         <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>Blog Post 1</Typography>
         <Typography variant="body2">
-          well meaning and kindly.
+          Today I worked on deploying my portfolio. I am planning on deploying my first project to the portfolio within the next month and am working dilligently to get that finished. In addition to deploying my project, I also worked on styling out my portfolio frontend using material-UI as well as some html & css. 
         </Typography>
       </CardContent>
       <CardActions>
