@@ -1,0 +1,20 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
