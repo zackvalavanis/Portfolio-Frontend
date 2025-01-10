@@ -28,7 +28,7 @@
   font-family: Arial, Helvetica, sans-serif;
   animation: slideInFromRight 0.8s ease forwards;
   color: #333;
-  /* Consistent text color for both mobile and desktop */
+  /* Default color for text */
 }
 
 .my-name2 {
@@ -52,7 +52,7 @@
 .button-projects a {
   text-decoration: none;
   color: white;
-  /* Link color for buttons */
+  /* Button link color */
 }
 
 .button-about button,
@@ -97,7 +97,7 @@
   .my-name2 {
     font-size: 8vw;
     color: #333;
-    /* Keep the text color consistent on mobile */
+    /* Keep text color dark grey on mobile */
   }
 
   .button-about button,
@@ -115,4 +115,12 @@
     flex-direction: column;
     align-items: center;
   }
+
+  /* Ensure 'About Me' is black on mobile */
+  .my-name,
+  .my-name2 {
+    color: black !important;
+    /* Force the text color to black on mobile */
+  }
+
 }
