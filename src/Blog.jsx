@@ -7,16 +7,25 @@ import Typography from '@mui/material/Typography';
 export function Blog () { 
 
   return ( 
-    <div className='card1'>
-      <Card sx={{ height: 450, maxWidth: 1200, margin: 10, justifyContent: 'Center'}}>
+    <div className='card1' style={{ display: 'flex', justifyContent: 'center', padding: '10px' }}>
+      <Card sx={{
+          height: 'auto',
+          width: '100%',
+          maxWidth: 900, 
+          margin: '20px auto', 
+          display: 'flex',
+          justifyContent: 'center',
+          padding: '10px',
+          boxSizing: 'border-box'
+        }}>
         <CardContent>
-      <Typography variant='h5' gutterBottom sx={{ color: 'text.primary', fontSize: 20}}>
+      <Typography variant='h5' gutterBottom sx={{ color: 'text.primary', fontSize: { xs: 16, sm: 20 } }}>
           January 9th, 2025
         </Typography>
         <Typography variant="h5" component="div">
         </Typography>
-        <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>Blog Post 1</Typography>
-        <Typography variant="body2">
+        <Typography sx={{ color: 'text.secondary', mb: 1.5, fontSize: { xs: 14, sm: 18 } }}>Blog Post 1</Typography>
+        <Typography variant="body2" sx={{ fontSize: { xs: 12, sm: 16 }, lineHeight: 1.5 }}>
           <p>
             Today, I made significant progress on deploying my portfolio website. I’m excited about this next step, as it represents a milestone in showcasing my work. I’ve laid out a solid foundation for my portfolio and am now focusing on polishing its design and functionality. Within the next month, I’m aiming to deploy my first project to the portfolio, and I’m dedicating time and effort to ensure that everything is ready for this release.
           </p>
