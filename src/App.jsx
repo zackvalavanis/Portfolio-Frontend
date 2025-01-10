@@ -4,7 +4,7 @@ import { Footer } from './Footer.jsx';
 import { MainPage } from './MainPage.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { MyInterests } from './MyInterests.jsx'
+import { Blog } from './Blog.jsx'
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />  {/* Default/Home page */}
-        <Route path="/MyInterests" element={<MyInterests/>} />  Another page
+        <Route path="/Blog" element={<Blog/>} />  Another page
       </Routes>
     <Footer />
     </div>

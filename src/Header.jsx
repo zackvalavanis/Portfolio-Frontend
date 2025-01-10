@@ -49,13 +49,13 @@ export function Header() {
             )}
             <li className="nav-item">
               <NavLink 
-                to="/MyInterests" 
+                to="/Blog" 
                 className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}
               >
-                My Interests
+                Blog
               </NavLink>
             </li>
-            {location.pathname !== '/MyInterests' && (
+            {location.pathname !== '/Blog' && (
               <li className="nav-item">
                 <a href="#contact" className="nav-link">
                   Contact
