@@ -8,7 +8,7 @@ export function Blog () {
 
   return ( 
     <div className='card1'>
-      <Card sx={{ height: 375, maxWidth: 1000, margin: 10, justifyContent: 'Center'}}>
+      <Card sx={{ height: 475, maxWidth: 1000, margin: 10, justifyContent: 'Center'}}>
         <CardContent>
       <Typography variant='h5' gutterBottom sx={{ color: 'text.primary', fontSize: 20}}>
           January 9th, 2025
