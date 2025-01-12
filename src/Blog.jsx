@@ -39,7 +39,7 @@ const BlogCard = ({ date, title, content }) => (
         {content}
       </Typography>
     </CardContent>
-    <CardActions>{/* Add buttons or actions here if needed */}</CardActions>
+    <CardActions></CardActions>
   </Card>
 );
 
