@@ -53,7 +53,7 @@ export function Blog() {
     {
       date: 'January 10th, 2025',
       title: 'Blog Post 2',
-      content: `Continuing my progress on the portfolio website, I started integrating animations for a more dynamic user experience. I’m also working on adding accessibility features to ensure inclusivity for all users.`,
+      content: `Continuing my progress on the portfolio website. Today I worked a lot on my sushi restaurant website project. I am currently working on implementing the stripe integration with the backend so a user could place mock orders to show functionality of the site. I was able to get the orders page up and running today so the user can now add things to their cart and it will show up in their cart page. I will continue adding additional functionality this week to better improve the website and then begin to style the pages. Ocne that is all compelted, I plan to use heroku for the backend deployment and vercel for the front end.`,
     },
   ];
 
