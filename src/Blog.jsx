@@ -46,6 +46,11 @@ const BlogCard = ({ date, title, content }) => (
 export function Blog() {
   const blogPosts = [
     { 
+      date: 'January 15th, 2025',
+      title: 'Blog Post 4',
+      content: 'Today I worked on manually creating a toast notification system for my sushi website project. I was able to achieve this by passing props to a toast component which I manually created. I look forward to continuing to opitimize the website and get it deployed.'
+    },
+    { 
       date: 'January 14th, 2025',
       title: 'Blog Post 3',
       content: 'Today, I made significant progress on my sushi website project.I focused primarily on implementing user authentication both on the backend and the frontend. This was a crucial step to ensure that users can securely log in, register, and manage their sessions. After completing that, I turned my attention to adding a cart page, which allows users to interact with the restaurant\'s menu.They can browse food items, add them to their cart, and adjust quantities as needed. Next, I plan to implement order processing, which will allow users to complete their purchases. For this, I intend to integrate Stripe\'s API to handle payments securely. This will enable users to finalize their orders with ease, and I’m excited to dive into Stripe\'s features to ensure smooth transactions.In addition to the technical aspects, I’m working on improving the user experience with intuitive UI components, making it as easy as possible for users to navigate through the cart and checkout process.'
