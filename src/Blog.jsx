@@ -46,6 +46,17 @@ const BlogCard = ({ date, title, content }) => (
 export function Blog() {
   const blogPosts = [
     { 
+      date: 'January 19th, 2025',
+      title: 'Blog Post 6',
+      content: 'New Post'
+
+    },
+    { 
+      date: 'January 18th, 2025',
+      title: 'Blog Post 5',
+      content: 'Today I worked on getting my backend (ruby on rails) deployed on Heroku. I was able to get everything running smoothly with a couple of minor tweaks to my backend code. I now have both the frontend and the backend deployed. The frontend is deployed with vercel. Now that theyre deployed, I only have a couple more items to tackle before the project is finished. First, I need to put logic in the backend for the total price of items in the cart. Afterwhich, I will need to do an integration with stripe to be able to successfully "/dummy/" order items. After that is completed, all that will be left is styling each page professionally and then I can show it off on my portfolio.'
+    },
+    { 
       date: 'January 15th, 2025',
       title: 'Blog Post 4',
       content: 'Today I worked on manually creating a toast notification system for my sushi website project. I was able to achieve this by passing props to a toast component which I manually created. I look forward to continuing to opitimize the website and get it deployed.'
