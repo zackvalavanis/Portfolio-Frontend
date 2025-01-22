@@ -58,6 +58,13 @@ const BlogCard = ({ date, title, content, leetcode, skills}) => (
 export function Blog() {
   const blogPosts = [
     { 
+      date: 'January 21st, 2025',
+      title: 'Blog Post 7',
+      leetcode: '2 leetcode questions',
+      skills: 'Javascript, typescript, css',
+      content: 'Today I focused on updating a couple specific pieces of my application using ternary operators. I updated the orders link on my main page so that if you are logged off, it will take you to the login page and if youre logged in, you will be taken to the menu page. in addition to that, I added a ternary operator on my toast so that if you order more than one item it pluralizes the toast. Finally, I added some typescript to the toast component. This is my first use of typescript but I hope to cultivate this skill going forward.'
+    },
+    { 
       date: 'January 19th, 2025',
       title: 'Blog Post 6',
       leetcode: 'Today I completed 3 Leetcode questions. I will be tracking this metric going forward.',
