@@ -60,7 +60,7 @@ export function AboutMe() {
         <CardContent>
           <p><b>Summary:</b></p>
           <Typography>
-            Worked as an Analytics Analyst at Neuberger Berman, managing a $2.7B portfolio and delivering 1%+ alpha. Developed tax-efficient strategies, cutting clients' capital gains taxes by up to 10%, and created a VBA automation that saved 12 hours annually. Helped grow the portfolio by $100M, enhancing client trust and efficiency.
+          Worked as an Analytics Analyst at Neuberger Berman, managing a $2.7B portfolio and delivering 1%+ alpha. Developed tax-efficient strategies that cut clients' capital gains taxes by up to 10%. Built a VBA automation that streamlined reporting and saved 56 hours annually. Helped grow the portfolio by $100M, enhancing both client trust and operational efficiency.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -82,7 +82,7 @@ export function AboutMe() {
               - Designed and executed tax-efficient investment strategies for diverse client portfolios, achieving up to 10% reductions in capital gains taxes and significantly lowering clients’ overall tax burdens.
             </Typography>
             <Typography sx={{ marginBottom: 2 }}>
-              - Developed and implemented a VBA automation solution that saves 12 hours annually, with strong potential for scaling and improving efficiency across the organization.
+              - Developed and implemented a VBA automation solution that saves 56 hours annually, with strong potential for scaling and improving efficiency across the organization.
             </Typography>
             <Typography sx={{ marginBottom: 2 }}>
               - Implemented data-driven strategies that contributed to an increase of approximately $100M in the book over the course of the year, enhancing client trust and engagement.
@@ -111,7 +111,7 @@ export function AboutMe() {
         <CardContent>
           <p><b>Summary:</b></p>
           <Typography>
-            As a Real Estate Management Analyst at Accenture, I focused on optimizing real estate portfolios, providing strategic insights that contributed to reducing costs and improving overall performance. My work involved detailed data analysis, cost-benefit assessments, and strategic planning.
+          As a Real Estate Management Analyst at Accenture, I managed properties and optimized real estate portfolios, delivering strategic insights that reduced costs and improved performance. Leveraged data analysis, cost-benefit assessments, and strategic planning to drive efficiency and maximize value.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
