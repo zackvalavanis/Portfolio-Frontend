@@ -58,6 +58,13 @@ const BlogCard = ({ date, title, content, leetcode, skills}) => (
 export function Blog() {
   const blogPosts = [
     { 
+      date: 'January 28st, 2025',
+      title: 'Blog Post 8',
+      leetcode: '4 leetcode questions',
+      skills: 'Javascript, typescript, css',
+      content: 'I just got back from an incredible ski trip to Breckenridge and I am ready to get back into study mode. I started today with some leetcode questions just to warm up as I had not coded for almost a week. I worked on the core logic of my app today which essentially is to calculate the total cost of a users cart. I did most of the work in the backend on ruby using each loops and defining the logic for the sum and total. After the backend data was working and checked in the rails console, I moved on to the front end and to gathering all of the data in the cart to display. I was able to display everything I needed in the frontend and will continue to work on the API integrations going forward.'
+    },
+    { 
       date: 'January 21st, 2025',
       title: 'Blog Post 7',
       leetcode: '2 leetcode questions',
