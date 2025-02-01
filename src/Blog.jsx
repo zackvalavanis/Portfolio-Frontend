@@ -57,8 +57,17 @@ const BlogCard = ({ date, title, content, leetcode, skills}) => (
 
 export function Blog() {
   const blogPosts = [
+
     { 
-      date: 'January 28st, 2025',
+      date: 'Febraury 1st, 2025',
+      title: 'Blog Post 9',
+      leetcode: '4 Questions',
+      skills: 'Javascript, Typescript, CSS, Ruby',
+      content: 'Today, I started with some Leetcode questions to warm up. After that, I needed to fix the images section on my front end. I resolved this by updating the Jbuilder file in the backend to send the correct data to the front end. Once that was fixed, I encountered another issue—the total sum on the front end wasn’t updating automatically when an item was deleted. I fixed this by using a couple of variables and the useState function to dynamically update the sum whenever items were added or removed from the cart.',
+    }, 
+
+    { 
+      date: 'January 28th, 2025',
       title: 'Blog Post 8',
       leetcode: '4 leetcode questions',
       skills: 'Javascript, typescript, css',
