@@ -57,7 +57,6 @@ const BlogCard = ({ date, title, content, leetcode, skills}) => (
 
 export function Blog() {
   const blogPosts = [
-
     { 
       date: 'Febraury 1st, 2025',
       title: 'Blog Post 9',
