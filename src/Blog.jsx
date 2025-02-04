@@ -63,7 +63,7 @@ export function Blog() {
       title: 'Blog Post 10',
       leetcode: '4 Questions',
       skills: 'Javascript, Typescript, CSS, Ruby',
-      content: "Today, I began by working on some Leetcode questions, focusing on deepening my understanding of the two-pointer technique and iterating through arrays. Once I finished with Leetcode, I shifted my focus to adding a new page to my sushi website. This page provides a brief history of the restaurant, as well as a critic's review. I’m pleased to report that I successfully implemented this feature today, adding meaningful depth to the application. Moving forward, I plan to work on integrating Stripe and finalize the styling in the coming weeks"
+      content: "Today, I began by working on some Leetcode questions, focusing on deepening my understanding of the two-pointer technique and iterating through arrays. Once I finished with Leetcode, I shifted my focus to adding a new page to my sushi website. This page provides a brief history of the restaurant, as well as a critic's review. I’m pleased to report that I successfully implemented this feature today, adding meaningful depth to the application. Moving forward, I plan to work on integrating Stripe and finalize the styling in the coming weeks."
     },
 
     { 
