@@ -59,6 +59,14 @@ export function Blog() {
   const blogPosts = [
 
     { 
+      date: 'Febraury 10th, 2025',
+      title: 'Blog Post 12',
+      leetcode: '6 Questions',
+      skills: 'Javascript, Typescript, CSS, Ruby',
+      content: "I worked on several leetcode questions to get started today. I like to start with the hardest part of the day before getting to more interesting and fun items. I then worked on caching on of the pages in my application. This is the first time I explorered caching and I wanted to do so as I had noticed my items page was sometimes slow to load. I ended up using a useEffect hook in tandem with setting a variable to both save down the cached data in local storage and then to retrieve that data from local storage if the page had previously been loaded. This was my first attempt and I definitely will be using this in other projects going forward."
+    },
+
+    { 
       date: 'Febraury 6th, 2025',
       title: 'Blog Post 11',
       leetcode: '8 Questions',
