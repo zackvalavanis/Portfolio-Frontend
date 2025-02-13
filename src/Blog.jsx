@@ -59,6 +59,14 @@ export function Blog() {
   const blogPosts = [
 
     { 
+      date: 'Febraury 12th, 2025',
+      title: 'Blog Post 13',
+      leetcode: '6 Questions',
+      skills: 'Javascript, Typescript, CSS, Ruby',
+      content: "Today I was able to get 6 leetcode questions done at the start. Today I worked on getting my projects front end deployed and working. I was able to get it deployed using vercel and will need to further connect with the backend which is deployed via Heroku. I hope to get this completed in the coming weeks."
+    },
+
+    { 
       date: 'Febraury 10th, 2025',
       title: 'Blog Post 12',
       leetcode: '6 Questions',
