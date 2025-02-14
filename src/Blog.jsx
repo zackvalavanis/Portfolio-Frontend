@@ -59,6 +59,14 @@ export function Blog() {
   const blogPosts = [
 
     { 
+      date: 'Febraury 13th, 2025',
+      title: 'Blog Post 14',
+      leetcode: '4 Questions',
+      skills: 'Javascript, Typescript, CSS, Ruby, Material UI',
+      content: "Today I have set a goal for myself to start doing a minimum of 4 leetcode questions per day, 3 blog posts per week, and to finish my project by the first week of March. I started the day off completing the 4 leetcode questions. These taught me topics like big O notation, and manipulating arrays and hashes. I was able to fix a part of my backend and frontend that were broken today. The issue was that the cart orders did not work in the backend so I needed to update some of the ruby code in that controller. After that I checked that everything was working with HTTPI. In addition, I was able to add an icon from material ui for my shopping cart."
+    },
+
+    { 
       date: 'Febraury 12th, 2025',
       title: 'Blog Post 13',
       leetcode: '6 Questions',
