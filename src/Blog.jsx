@@ -59,6 +59,14 @@ export function Blog() {
   const blogPosts = [
 
     { 
+      date: 'Febraury 18th, 2025',
+      title: 'Blog Post 15',
+      leetcode: '6 Questions, 2 Java questions',
+      skills: 'Java, Javascript, Typescript, CSS, Ruby, Material UI',
+      content: "I began today as I usually do with leetcode. I was able to do 6 questions in javascript which tackled subjects such as if/else statements, arrays, hashes, sets and combining data located in different data structures. In addition, I coded my first two files in Java. I want to start pushing myself to learn more coding languages so I have begun deliberate practice of Java. I picked this language due to its use cases and difficulty as it is a typed language, I think overall, this will build my programming knowledge the most. After the leetcode practice, I moved onto my project work. The problem I was tackling today was to get orders to populate on an orders tab on the frontend when theyre placed. I first made an orders model on the backend in rails and then through an association was able to get that tab to populate when orders were placed on the backend. I then fixed the frontend and was able to send an axios get request to the backend api to retrieve the information that I needed. After that, I used some typescript to distinguish types on my orders page before proceeding to set up that full page logically and then style it. Overall, Very productive day and I used several different languages today that I don't usually use."
+    },
+
+    { 
       date: 'Febraury 13th, 2025',
       title: 'Blog Post 14',
       leetcode: '4 Questions',
