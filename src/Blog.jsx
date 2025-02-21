@@ -58,6 +58,23 @@ const BlogCard = ({ date, title, content, leetcode, skills}) => (
 export function Blog() {
   const blogPosts = [
 
+
+    { 
+      date: 'Febraury 21st, 2025',
+      title: 'Blog Post 17',
+      leetcode: '6 Questions, 2 Java questions',
+      skills: 'Java, Javascript, Typescript, CSS, Ruby, Material UI',
+      content: "Today I was able to get a lot of the finishing touches of the application done. One major thing I worked on today was adding a CartCountProvider so that I could add a toast notification to my cart so when items are added to the cart a litte number appears next to the cart. I needed to add a provider because the header is on multiple different pages and I needed to ensure the value would be accurate throughout the app. In addition to this, I was able to fix many of the typed errors that were showing due to either not specifying the type. This was a lesson in Typescript for me and the most I have used Typescript to date."
+    },
+
+    { 
+      date: 'Febraury 20th, 2025',
+      title: 'Blog Post 16',
+      leetcode: '5 Questions, 4 Java questions',
+      skills: 'Java, Javascript, Typescript, CSS, Ruby, Material UI',
+      content: "I was able to do a lot of leetcode practice today which included some Ruby questions as well as java questions. After Leetcode I started to build out notifiction updates so when you add something to the cart it displays a number of items in the cart. I will continue this work tomorrow and hopefully start to get this entire application finished up sometime in the next couple of weeks."
+    },
+
     { 
       date: 'Febraury 18th, 2025',
       title: 'Blog Post 15',
