@@ -58,6 +58,13 @@ const BlogCard = ({ date, title, content, leetcode, skills}) => (
 export function Blog() {
   const blogPosts = [
 
+    { 
+      date: 'Febraury 23rd, 2025',
+      title: 'Blog Post 17',
+      leetcode: '11 Leetcode Javascript questions, 7 Python deliberate practice questions, 4 Ruby deliberate practice questions ',
+      skills: 'Python, Javascript, Typescript, CSS, Ruby, Material UI',
+      content: "I started today off with a bunch of leetcode questions. I have decided to start learning Python instead of java as I see more oppoertunities for value by learning python. In addition, I will be practiciing both ruby and python now on an ongoing basis. "
+    },
 
     { 
       date: 'Febraury 21st, 2025',
