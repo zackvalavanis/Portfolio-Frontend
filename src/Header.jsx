@@ -47,6 +47,13 @@ export function Header() {
                 </a>
               </li>
             )}
+            {location.pathname !== '/Blog' && (
+              <li className="nav-item">
+                <a href="#technology" className="nav-link">
+                  Technology
+                </a>
+              </li>
+            )}
             <li className="nav-item">
               <NavLink 
                 to="/Blog" 
