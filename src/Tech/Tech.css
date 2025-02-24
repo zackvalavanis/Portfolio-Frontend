@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   font-size: 2em;
   /* Added for better visibility */
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .card-tech:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .card-content {
@@ -94,6 +94,15 @@ body {
     justify-content: center;
     /* Center cards on smaller screens */
     gap: 15px;
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5em;
+    /* Added for better visibility */
   }
 
   .card-tech {
