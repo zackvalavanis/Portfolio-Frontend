@@ -20,7 +20,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 30, width: 30, objectFit: 'contain' }}
-                    image="public/Images/JavaScript-logo.png"
+                    image="/Images/JavaScript-logo.png"
                     title="JavaScript Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ lineHeight: '15px' }}>
@@ -35,7 +35,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 30, width: 31, objectFit: 'contain' }}
-                    image="public/Images/react.png"
+                    image="/Images/React.png"
                     title="React Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ lineHeight: '15px' }}>
@@ -50,7 +50,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 30, width: 30, objectFit: 'contain' }}
-                    image="public/Images/typescript.png"
+                    image="/Images/typescript.png"
                     title="TypeScript Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ lineHeight: '15px' }}>
@@ -65,7 +65,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 25, width: 38, objectFit: 'contain' }}
-                    image="public/Images/free-tailwind-icon@2x.png"
+                    image="/Images/free-tailwind-icon@2x.png"
                     title="Tailwind Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ lineHeight: '15px' }}>
@@ -80,7 +80,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 25, width: 38, objectFit: 'contain' }}
-                    image="public/Images/Bootstrap_logo.svg.png"
+                    image="/Images/Bootstrap_logo.svg.png"
                     title="Bootstrap Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ lineHeight: '15px' }}>
@@ -95,7 +95,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 30, width: 35, objectFit: 'contain' }}
-                    image="public/Images/material-ui-icon-2048x1626-on580ia9.png"
+                    image="/Images/material-ui-icon-2048x1626-on580ia9.png"
                     title="Material UI Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ lineHeight: '15px' }}>
@@ -114,7 +114,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 30, width: 46, objectFit: 'contain' }}
-                    image="public/Images/images.png"
+                    image="/Images/images.png"
                     title="Ruby on Rails Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ lineHeight: '15px' }}>
@@ -129,7 +129,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 30, width: 30, objectFit: 'contain' }}
-                    image="public/Images/2945099.webp"
+                    image="/Images/2945099.webp"
                     title="Python Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ lineHeight: '15px' }}>
@@ -152,7 +152,7 @@ export function Tech() {
                 <CardContent sx={{ display: 'flex', alignItems: 'flex-end', gap: 3 }}>
                   <CardMedia
                     sx={{ height: 30, width: 30, objectFit: 'contain' }}
-                    image="public/Images/Postgresql_elephant.svg.png"
+                    image="/Images/Postgresql_elephant.svg.png"
                     title="PostGresSQL Logo"
                   />
                   <Typography gutterBottom variant="h6" component="div" sx={{ textAlign: 'center', lineHeight: '15px', color: 'black' }}>
