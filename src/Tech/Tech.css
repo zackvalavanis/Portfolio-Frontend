@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tech-container {
+  background-color: rgba(0, 0, 0, 0.577);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 2em;
+  /* Added for better visibility */
+}
+
+.frontend-tech,
+.backend-tech,
+.infrastructure {
+  font-size: 25px;
+  padding: 40px;
+  /* Increased margin for spacing between sections */
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-tech {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 250px;
+  /* Fixed width */
+  height: 75px;
+  /* Fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  /* Added rounded corners for better aesthetics */
+  transition: transform 0.3s ease;
+  /* Smooth hover effect */
+}
+
+.card-tech:hover {
+  transform: scale(1.1);
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-media {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.card-media-large {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .card-wrapper {
+    justify-content: center;
+    /* Center cards on smaller screens */
+    gap: 15px;
+  }
+
+  .card-tech {
+    width: 100%;
+    /* Make cards full-width on small screens */
+    padding: 15px;
+  }
+
+  .frontend-tech,
+  .backend-tech,
+  .infrastructure {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .frontend-tech,
+  .backend-tech,
+  .infrastructure {
+    font-size: 18px;
+    /* Smaller font size for even smaller screens */
+  }
+}

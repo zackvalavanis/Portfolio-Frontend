@@ -4,6 +4,7 @@ import { AboutMe } from './AboutMe'
 import { ProjectsPage } from './ProjectsPage'
 import { Contact } from './Contact'
 import { useEffect } from 'react'
+import { Tech } from './Tech/Tech';
 
 export function MainPage() {
     useEffect(() => {
@@ -61,12 +62,14 @@ export function MainPage() {
 
     </div>
     </section>
-
-    <section id='about'>
-      <AboutMe></AboutMe>
+    <section id='technology'>
+      <Tech></Tech>
     </section>
     <section id='projects'>
       <ProjectsPage/>
+    </section>
+    <section id='about'>
+      <AboutMe></AboutMe>
     </section>
     <section id='contact'>
       <div className='container-contact'>

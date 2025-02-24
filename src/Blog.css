@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
 .page-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
   padding: 0 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 .card1 {
@@ -12,9 +15,37 @@
   flex-grow: 1;
   margin-top: 50px;
   margin-bottom: 500px;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer {
   text-align: center;
   padding: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.pagination {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.page-button {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.page-button:hover {
+  background-color: #e0e0e0;
+}
+
+.page-button.active {
+  background-color: #1976d2;
+  /* Blue color */
+  color: white;
+  font-weight: bold;
 }

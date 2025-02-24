@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
 .about-me-container {
   background-color: rgba(0, 0, 0, 0.577);
   display: flex;
@@ -5,12 +7,14 @@
   align-items: center;
   /* Centering the content horizontally */
   padding: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 .head-comment {
   text-align: center;
-  color: white
-    /* Ensures text within the h1 is centered */
+  color: white;
+  font-family: 'Inter', sans-serif;
+  /* Ensures text within the h1 is centered */
 }
 
 .resume-text {
@@ -22,6 +26,7 @@
   animation-delay: 0.6s;
   color: white;
   text-decoration: none;
+  font-family: 'Inter', sans-serif;
 }
 
 .resume-button {
@@ -34,6 +39,7 @@
   cursor: pointer;
   font-size: 20px;
   transition: color 0.3s, background-color 0.3s;
+  font-family: 'Inter', sans-serif;
 }
 
 .resume-button:hover {

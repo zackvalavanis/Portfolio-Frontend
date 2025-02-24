@@ -3,6 +3,11 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import { useState } from 'react'
+
+
+
+
 
 const BlogCard = ({ date, title, content, leetcode, skills}) => (
   <Card
@@ -56,6 +61,9 @@ const BlogCard = ({ date, title, content, leetcode, skills}) => (
 );
 
 export function Blog() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 5;
+
   const blogPosts = [
 
     { 
@@ -192,14 +200,31 @@ export function Blog() {
     }
   ];
 
-  return (
-    <div
-      className="card-container"
-      style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '10px' }}
-    >
-      {blogPosts.map((post, index) => (
-        <BlogCard key={index} date={post.date} title={post.title} content={post.content} leetcode={post.leetcode} skills={post.skills}/>
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const currentPosts = blogPosts.slice(startIndex, startIndex + itemsPerPage);
+
+  const totalPages = Math.ceil(blogPosts.length / itemsPerPage);
+
+  const handlePageChange = (newPage) => {
+    if (newPage >= 1 && newPage <= totalPages) {
+      setCurrentPage(newPage);
+    }
+  };
+
+   return (
+    <div>
+      {currentPosts.map((post, index) => (
+        <BlogCard key={index} {...post} />
       ))}
+      <div className="pagination">
+        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>
+          Prev
+        </button>
+        <span>Page {currentPage} of {totalPages}</span>
+        <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages}>
+          Next
+        </button>
+      </div>
     </div>
   );
 }

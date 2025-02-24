@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
 body,
 #root,
 .App {
@@ -8,6 +10,7 @@ body,
   margin: 0;
   animation: fadeIn 1s ease;
   /* Apply fade-in animation */
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -16,6 +19,7 @@ body {
   /* Full viewport height */
   background-attachment: fixed;
   /* Fixed background */
+  font-family: 'Inter', sans-serif;
 }
 
 /* Fade-in animation keyframes */
