@@ -92,6 +92,8 @@
   z-index: -1;
 }
 
+
+
 /* Media queries for small screens */
 @media (max-width: 768px) {
 
@@ -99,13 +101,14 @@
   .my-name2 {
     font-size: 8vw;
     color: #333;
-    /* Keep text color dark grey on mobile */
   }
 
   .button-about button,
   .button-projects button {
     text-decoration: none;
     font-size: 4vw;
+    color: #333;
+    background-color: white;
   }
 
   .img-thumbnail {

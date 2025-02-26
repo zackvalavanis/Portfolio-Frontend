@@ -60,7 +60,7 @@ export function AboutMe() {
         <CardContent>
           <p><b>Summary:</b></p>
           <Typography>
-          Worked as an Analytics Analyst at Neuberger Berman, managing a $2.7B portfolio and delivering 1%+ alpha. Developed tax-efficient strategies that cut clients' capital gains taxes by up to 10%. Built a VBA automation that streamlined reporting and saved 56 hours annually. Helped grow the portfolio by $100M, enhancing both client trust and operational efficiency.
+          Worked as an Analytics Analyst at Neuberger Berman, managing a $2.7B portfolio and delivering 1%+ alpha. Developed tax-efficient strategies that cut clients&apos; capital gains taxes by up to 10%. Built a VBA automation that streamlined reporting and saved 56 hours annually. Helped grow the portfolio by $100M, enhancing both client trust and operational efficiency.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>

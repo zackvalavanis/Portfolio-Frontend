@@ -1,5 +1,5 @@
 import './MainPage.css';
-import myImage from './IMG_3383.jpg';
+// import myImage from './IMG_3383.jpg';
 import { AboutMe } from './AboutMe'
 import { ProjectsPage } from './ProjectsPage'
 import { Contact } from './Contact'

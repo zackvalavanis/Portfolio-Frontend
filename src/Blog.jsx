@@ -4,6 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { useState } from 'react'
+import PropTypes from 'prop-types';
 
 
 
@@ -59,6 +60,14 @@ const BlogCard = ({ date, title, content, leetcode, skills}) => (
     <CardActions></CardActions>
   </Card>
 );
+
+BlogCard.propTypes = { 
+  date: PropTypes.string.isRequired, 
+  title: PropTypes.string.isRequired, 
+  content: PropTypes.string.isRequired, 
+  leetcode: PropTypes.string.isRequired, 
+  skills: PropTypes.string.isRequired
+}
 
 export function Blog() {
   const [currentPage, setCurrentPage] = useState(1);
