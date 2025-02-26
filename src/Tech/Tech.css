@@ -87,6 +87,11 @@ body {
   object-fit: contain;
 }
 
+@media (hover:none) {
+  .card-tech:hover {
+    transform: none
+  }
+}
 
 /* Responsive design */
 @media (max-width: 768px) {
@@ -118,6 +123,10 @@ body {
     align-items: center;
     text-align: center;
   }
+
+  .card-tech:hover {
+    transform: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -127,5 +136,9 @@ body {
   .infrastructure {
     font-size: 18px;
     /* Smaller font size for even smaller screens */
+  }
+
+  .card-tech:hover {
+    transform: none;
   }
 }

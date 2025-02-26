@@ -67,6 +67,14 @@ export function Blog() {
   const blogPosts = [
 
     { 
+      date: 'Febraury 25th, 2025',
+      title: 'Blog Post 19',
+      leetcode: '13 Leetcode Javascript questions, 4 Python deliberate practice questions, 3 Ruby deliberate practice questions ',
+      skills: 'Python, Javascript, Typescript, CSS, Ruby, Material UI',
+      content: "I started with a bunch of leetcode questions today. In addition, I want to continue deliberately practicing Ruby & python each and everyday so I can get better with the syntax there."
+    },
+
+    { 
       date: 'Febraury 23rd, 2025',
       title: 'Blog Post 18',
       leetcode: '11 Leetcode Javascript questions, 7 Python deliberate practice questions, 4 Ruby deliberate practice questions ',
