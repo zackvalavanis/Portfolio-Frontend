@@ -76,6 +76,14 @@ export function Blog() {
   const blogPosts = [
 
     { 
+      date: 'Febraury 27th, 2025',
+      title: 'Blog Post 20',
+      leetcode: '6 Leetcode Javascript questions',
+      skills: 'Javascript, CSS',
+      content: 'Today was a productive day, starting off with a solid Leetcode session where I tackled 6 questions. I focused on refining my problem-solving skills and getting more comfortable with algorithmic thinking. It felt great to keep building my confidence with each question.Afterward, I dove deep into CSS styling. I spent a significant amount of time fine-tuning the design of my project, focusing on responsiveness and making sure everything looked great across different devices. From adjusting layouts to perfecting colors and fonts, I was able to polish up the UI and give it a more professional look. It’s always rewarding to see the hard work on the backend come to life visually on the front end. Looking forward to continuing this momentum tomorrow!'
+    },
+
+    { 
       date: 'Febraury 25th, 2025',
       title: 'Blog Post 19',
       leetcode: '13 Leetcode Javascript questions, 4 Python deliberate practice questions, 3 Ruby deliberate practice questions ',
