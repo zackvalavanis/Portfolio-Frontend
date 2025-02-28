@@ -80,7 +80,7 @@ export function Blog() {
       title: 'Blog Post 19',
       leetcode: '13 Leetcode Javascript questions, 4 Python deliberate practice questions, 3 Ruby deliberate practice questions ',
       skills: 'Python, Javascript, Typescript, CSS, Ruby, Material UI',
-      content: "I started with a bunch of leetcode questions today. In addition, I want to continue deliberately practicing Ruby & python each and everyday so I can get better with the syntax there."
+      content: "Today, I dived into a slew of Leetcode challenges, followed by deliberate practice in Ruby and Python. I’m committed to improving my syntax in both languages by incorporating daily practice into my routine. After that, I shifted gears and began refining the styling of my project. My goal was to ensure a seamless user experience across various screen sizes, including mobile. I managed to implement about half of the app's dynamic styling, and I’m inching closer to wrapping up this project. The finish line is in sight! "
     },
 
     { 
@@ -88,7 +88,7 @@ export function Blog() {
       title: 'Blog Post 18',
       leetcode: '11 Leetcode Javascript questions, 7 Python deliberate practice questions, 4 Ruby deliberate practice questions ',
       skills: 'Python, Javascript, Typescript, CSS, Ruby, Material UI',
-      content: "I started today off with a bunch of leetcode questions. I have decided to start learning Python instead of java as I see more oppoertunities for value by learning python. In addition, I will be practiciing both ruby and python now on an ongoing basis. After leetcode I dove into editing my portfolio page. I wanted to include more tech information, so I decided to add another section to the main page. This was time consuming due to the massive amounts of styling that I had to do. I was able to get this done and pushed up to the deployed version.  "
+      content: "Today was a productive mix of Leetcode practice and exploring new languages. I’ve decided to pivot from Java to Python, seeing more value in its versatility for the future. I’ll be dedicating ongoing time to deliberate practice in both Ruby and Python. After finishing Leetcode, I focused on updating my portfolio page. I wanted to add more tech-related content, so I created a new section for the main page. While the styling took longer than expected, I was able to get everything pushed live and deployed."
     },
 
     { 
@@ -96,7 +96,7 @@ export function Blog() {
       title: 'Blog Post 17',
       leetcode: '6 Questions, 2 Java questions',
       skills: 'Java, Javascript, Typescript, CSS, Ruby, Material UI',
-      content: "Today I was able to get a lot of the finishing touches of the application done. One major thing I worked on today was adding a CartCountProvider so that I could add a toast notification to my cart so when items are added to the cart a litte number appears next to the cart. I needed to add a provider because the header is on multiple different pages and I needed to ensure the value would be accurate throughout the app. In addition to this, I was able to fix many of the typed errors that were showing due to either not specifying the type. This was a lesson in Typescript for me and the most I have used Typescript to date."
+      content: "Today I focused on adding the finishing touches to my project. A key task was integrating a CartCountProvider to enable a toast notification that tracks the number of items added to the cart. Since the header is shared across multiple pages, I needed a provider to ensure the cart count stays consistent. Additionally, I spent time fixing type errors in my Typescript code. This was my deepest dive into Typescript to date, and it was both challenging and rewarding."
     },
 
     { 
@@ -104,7 +104,7 @@ export function Blog() {
       title: 'Blog Post 16',
       leetcode: '5 Questions, 4 Java questions',
       skills: 'Java, Javascript, Typescript, CSS, Ruby, Material UI',
-      content: "I was able to do a lot of leetcode practice today which included some Ruby questions as well as java questions. After Leetcode I started to build out notifiction updates so when you add something to the cart it displays a number of items in the cart. I will continue this work tomorrow and hopefully start to get this entire application finished up sometime in the next couple of weeks."
+      content: "I kicked off the day with more Leetcode practice, focusing on sharpening my skills in both Ruby and Java. After that, I started working on notifications for my cart. I wanted to display the total number of items added to the cart, and I made good progress on that front. Tomorrow, I plan to continue refining this feature and hope to wrap up this project in the next few weeks."
     },
 
     { 
@@ -112,7 +112,7 @@ export function Blog() {
       title: 'Blog Post 15',
       leetcode: '6 Questions, 2 Java questions',
       skills: 'Java, Javascript, Typescript, CSS, Ruby, Material UI',
-      content: "I began today as I usually do with leetcode. I was able to do 6 questions in javascript which tackled subjects such as if/else statements, arrays, hashes, sets and combining data located in different data structures. In addition, I coded my first two files in Java. I want to start pushing myself to learn more coding languages so I have begun deliberate practice of Java. I picked this language due to its use cases and difficulty as it is a typed language, I think overall, this will build my programming knowledge the most. After the leetcode practice, I moved onto my project work. The problem I was tackling today was to get orders to populate on an orders tab on the frontend when theyre placed. I first made an orders model on the backend in rails and then through an association was able to get that tab to populate when orders were placed on the backend. I then fixed the frontend and was able to send an axios get request to the backend api to retrieve the information that I needed. After that, I used some typescript to distinguish types on my orders page before proceeding to set up that full page logically and then style it. Overall, Very productive day and I used several different languages today that I don't usually use."
+      content: "Today’s focus was on mastering some key Leetcode problems, especially around data structures like arrays, hashes, and sets. I also took my first steps in Java programming, deciding to deliberately practice this language moving forward. I chose Java for its difficulty and widespread use cases, which I believe will strengthen my overall programming abilities. Once I completed my Leetcode session, I worked on the frontend for my orders tab. I successfully linked the backend orders model with the frontend and used an Axios GET request to retrieve the order data. I also implemented Typescript for type safety on the orders page and made significant progress on styling. Overall, a very productive day with lots of learning!"
     },
 
     { 
@@ -120,7 +120,7 @@ export function Blog() {
       title: 'Blog Post 14',
       leetcode: '4 Questions',
       skills: 'Javascript, Typescript, CSS, Ruby, Material UI',
-      content: "Today I have set a goal for myself to start doing a minimum of 4 leetcode questions per day, 3 blog posts per week, and to finish my project by the first week of March. I started the day off completing the 4 leetcode questions. These taught me topics like big O notation, and manipulating arrays and hashes. I was able to fix a part of my backend and frontend that were broken today. The issue was that the cart orders did not work in the backend so I needed to update some of the ruby code in that controller. After that I checked that everything was working with HTTPI. In addition, I was able to add an icon from material ui for my shopping cart."
+      content: "Today, I set a personal goal to complete at least 4 Leetcode questions daily and to publish 3 blog posts per week. I kicked off the day with 4 Leetcode questions, diving into topics like Big O notation and array manipulation. I also tackled some issues with the backend and frontend, including fixing the cart functionality. The cart orders weren’t working properly, so I updated the Ruby code in the controller. After that, I verified everything with HTTPie and added a Material UI shopping cart icon to enhance the UI."
     },
 
     { 
@@ -128,7 +128,7 @@ export function Blog() {
       title: 'Blog Post 13',
       leetcode: '6 Questions',
       skills: 'Javascript, Typescript, CSS, Ruby',
-      content: "Today I was able to get 6 leetcode questions done at the start. Today I worked on getting my projects front end deployed and working. I was able to get it deployed using vercel and will need to further connect with the backend which is deployed via Heroku. I hope to get this completed in the coming weeks."
+      content: "Today I completed 6 Leetcode questions and then focused on deploying my project’s frontend. I successfully deployed it via Vercel, but the next step is connecting it to the backend, which is hosted on Heroku. This will be the next hurdle I tackle in the coming weeks."
     },
 
     { 
@@ -136,7 +136,7 @@ export function Blog() {
       title: 'Blog Post 12',
       leetcode: '6 Questions',
       skills: 'Javascript, Typescript, CSS, Ruby',
-      content: "I worked on several leetcode questions to get started today. I like to start with the hardest part of the day before getting to more interesting and fun items. I then worked on caching on of the pages in my application. This is the first time I explorered caching and I wanted to do so as I had noticed my items page was sometimes slow to load. I ended up using a useEffect hook in tandem with setting a variable to both save down the cached data in local storage and then to retrieve that data from local storage if the page had previously been loaded. This was my first attempt and I definitely will be using this in other projects going forward."
+      content: "I started the day by working through several Leetcode problems. I then moved on to improving my project by caching one of the pages that had performance issues. By using a useEffect hook in combination with local storage, I managed to cache the page data and retrieve it on subsequent loads. This was my first attempt at caching, and I’m excited to use this technique in future projects."
     },
 
     { 
@@ -144,7 +144,7 @@ export function Blog() {
       title: 'Blog Post 11',
       leetcode: '8 Questions',
       skills: 'Javascript, Typescript, CSS, Ruby',
-      content: "Today, I began by working on some Leetcode questions, focusing on deepening my understanding of the two-pointer technique and iterating through arrays. Once I finished with Leetcode, I shifted my focus to adding a new page to my sushi website. This page provides a brief history of the restaurant, as well as a critic's review. I’m pleased to report that I successfully implemented this feature today, adding meaningful depth to the application. Moving forward, I plan to work on integrating Stripe and finalize the styling in the coming weeks. I began working on the stripe integration today as well. I was able to just about finish the whole stripe integration today. I will need to add another model for orders so that a user can then go in and view their past orders."
+      content: "I spent the morning working on Leetcode questions, honing my understanding of the two-pointer technique. Afterward, I added a new page to my sushi website, which includes the restaurant's history and a critic's review. This addition adds meaningful depth to the application. I also began integrating Stripe for payments, which I plan to finalize in the upcoming weeks."
     },
 
     { 
@@ -152,7 +152,7 @@ export function Blog() {
       title: 'Blog Post 10',
       leetcode: '4 Questions',
       skills: 'Javascript, Typescript, CSS, Ruby',
-      content: "Today, I began by working on some Leetcode questions, focusing on deepening my understanding of the two-pointer technique and iterating through arrays. Once I finished with Leetcode, I shifted my focus to adding a new page to my sushi website. This page provides a brief history of the restaurant, as well as a critic's review. I’m pleased to report that I successfully implemented this feature today, adding meaningful depth to the application. Moving forward, I plan to work on integrating Stripe and finalize the styling in the coming weeks."
+      content: "I started the day with Leetcode practice, particularly focused on the two-pointer technique. After that, I worked on adding a new page to my sushi website, featuring the restaurant’s history and a review. This feature was successfully implemented today, adding more value to the app. Up next, I’ll continue working on Stripe integration and refining the styling."
     },
 
     { 
@@ -160,7 +160,7 @@ export function Blog() {
       title: 'Blog Post 9',
       leetcode: '4 Questions',
       skills: 'Javascript, Typescript, CSS, Ruby',
-      content: 'Today, I started with some Leetcode questions to warm up. After that, I needed to fix the images section on my front end. I resolved this by updating the Jbuilder file in the backend to send the correct data to the front end. Once that was fixed, I encountered another issue—the total sum on the front end wasn’t updating automatically when an item was deleted. I fixed this by using a couple of variables and the useState function to dynamically update the sum whenever items were added or removed from the cart.',
+      content: 'Today’s work began with Leetcode practice, which helped me warm up for the day ahead. Then I tackled a couple of frontend issues with my cart. I fixed the images section by updating the Jbuilder file to send the correct data. I also resolved an issue where the total sum on the frontend wasn’t updating automatically when an item was deleted. I implemented dynamic updates using useState to fix this.',
     }, 
 
     { 
@@ -168,21 +168,22 @@ export function Blog() {
       title: 'Blog Post 8',
       leetcode: '4 leetcode questions',
       skills: 'Javascript, typescript, css',
-      content: 'I just got back from an incredible ski trip to Breckenridge and I am ready to get back into study mode. I started today with some leetcode questions just to warm up as I had not coded for almost a week. I worked on the core logic of my app today which essentially is to calculate the total cost of a users cart. I did most of the work in the backend on ruby using each loops and defining the logic for the sum and total. After the backend data was working and checked in the rails console, I moved on to the front end and to gathering all of the data in the cart to display. I was able to display everything I needed in the frontend and will continue to work on the API integrations going forward.'
+      content: 'After a refreshing ski trip, I got back into coding by solving some Leetcode questions. I focused on the backend logic for calculating the total cost of items in the cart, using Ruby’s each loop to define the logic. After verifying the backend in the Rails console, I moved to the frontend to display the cart data. I’m looking forward to integrating the API and continuing progress in the coming days.'
     },
+
     { 
       date: 'January 21st, 2025',
       title: 'Blog Post 7',
       leetcode: '2 leetcode questions',
       skills: 'Javascript, typescript, css',
-      content: 'Today I focused on updating a couple specific pieces of my application using ternary operators. I updated the orders link on my main page so that if you are logged off, it will take you to the login page and if youre logged in, you will be taken to the menu page. in addition to that, I added a ternary operator on my toast so that if you order more than one item it pluralizes the toast. Finally, I added some typescript to the toast component. This is my first use of typescript but I hope to cultivate this skill going forward.'
+      content: 'Today, I fine-tuned some pieces of my application using ternary operators. I updated the orders link on the main page to dynamically direct users to either the login page or the menu, depending on their login status. Additionally, I modified the toast notification to pluralize when multiple items are ordered. This was my first time using Typescript, and I’m excited to explore more of it in future projects.'
     },
     { 
       date: 'January 19th, 2025',
       title: 'Blog Post 6',
       leetcode: 'Today I completed 3 Leetcode questions. I will be tracking this metric going forward.',
       skills: 'CSS, Javascript - This is my first time posting this. I will be tracking the skills I have practiced in each session going forward.',
-      content: 'Today I really focused on styling my project. I styled both the login and signup pages. I made them in the same style as to stay consistent in the application. I used css to style everything from scratch and the practice definitely honed my skills at raw css styling involing forms, buttons, and raw text.'
+      content: 'Today, I dedicated my efforts to styling my project. I worked on both the login and signup pages, ensuring they had a consistent design. Using raw CSS, I crafted everything from scratch, honing my skills with forms, buttons, and text styling.'
     },
     { 
       date: 'January 18th, 2025',
