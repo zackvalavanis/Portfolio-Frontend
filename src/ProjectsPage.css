@@ -4,7 +4,6 @@
 .projects {
   max-width: 525px;
   height: auto;
-  /* Default size for larger screens */
   margin: 0 auto;
   padding: 20px;
 }
@@ -14,7 +13,7 @@
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: white
+  color: white;
 }
 
 .header-project-zen {
@@ -26,6 +25,11 @@
   display: flex;
   height: auto;
   width: auto;
+  transition: transform 0.3s ease;
+}
+
+.image-zen:hover {
+  transform: scale(1.01);
 }
 
 .title-zen {
@@ -46,7 +50,6 @@
   padding: 20px;
   margin-bottom: 50px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* Allow for height to grow with content */
   height: auto;
 }
 
@@ -80,51 +83,79 @@
 /* Styling for the image */
 .project-item img {
   max-width: 100%;
-  /* Ensure the image scales with the container */
   height: auto;
-  /* Maintain the aspect ratio */
   padding: 20px;
   border-radius: 8px;
   margin-top: 20px;
   object-fit: contain;
-  /* Ensures the image fits without cropping */
   max-height: 300px;
 }
 
+/* List Styles */
 .list {
   display: flex;
   flex-direction: column;
   margin: auto;
   align-items: start;
+}
 
+/* Frontend & Backend Section */
+.frontend-backend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+  text-decoration: none;
+}
+
+/* Buttons */
+.frontend,
+.backend {
+  border-radius: 5px;
+  border: solid;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.frontend a,
+.backend a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Hover Effects */
+.frontend:hover,
+.backend:hover {
+  background-color: white;
+  color: black;
 }
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
-
-  /* Project Page Adjustments */
   .projects {
     padding: 10px;
     width: 100%;
-    /* Allow the container to expand for smaller screens */
     max-width: none;
-    /* Remove the max-width on mobile for flexibility */
   }
 
-  /* Heading adjustments */
   .projects h1 {
     font-size: 1.5rem;
-    /* Smaller font size for smaller screens */
     margin-bottom: 20px;
   }
 
-  /* Project item adjustments */
   .project-item {
     padding: 15px;
     margin-bottom: 20px;
   }
 
-  /* Project item headings on mobile */
   .project-item h2 {
     font-size: 1.5rem;
   }
@@ -142,18 +173,14 @@
     max-width: 100%;
     height: auto;
     max-height: 200px;
-    /* Adjust image height for better mobile layout */
   }
 
   .linked-items a {
-    font-size: .85rem;
-    /* Adjust font size for links */
+    font-size: 0.85rem;
     padding: 0.1rem 0.8rem;
-    /* Adjust padding */
   }
 
   .linked-items img {
     max-width: 90%;
-    /* Make image slightly bigger on mobile */
   }
 }

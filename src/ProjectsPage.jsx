@@ -25,6 +25,14 @@ export function ProjectsPage() {
           <li><strong>Frontend:</strong> JavaScript, TypeScript, React</li>  
           <li><strong>Integrations:</strong> Stripe</li>  
         </ul>  
+        <div className='frontend-backend'>
+          <div className='frontend'>
+            <a href='https://github.com/zackvalavanis/zenRolls-Frontend'>Frontend Code</a>
+          </div>
+          <div className='backend'>
+              <a href='https://github.com/zackvalavanis/Zen_Rolls_API'>Backend Code</a>
+          </div> 
+        </div>
       </div>
     </div>
   );
