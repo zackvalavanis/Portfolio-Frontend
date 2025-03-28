@@ -8,7 +8,7 @@ export function ProjectsPage() {
       
       {/* Link to the deployed project */}
       <div className="project-item">
-        <h2 className='header-project-zen'>Zen Rolls</h2>
+        <h2 className='header-project-zen'>Restaurant Website</h2>
         <Link 
           to='https://zen-rolls-flm56gin3-zackvalavanis-projects.vercel.app/'>
           <img 
