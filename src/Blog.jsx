@@ -76,6 +76,14 @@ export function Blog() {
   const blogPosts = [
 
     { 
+      date: 'March 7th, 2025',
+      title: 'Blog Post 21',
+      leetcode: '9 Leetcode Javascript questions, 3 python questions, 2 ruby questions',
+      skills: 'Javascript, CSS',
+      content: 'Today I started with leetcode and python / ruby practice questions. In addition, I have plans for 2 additional projects. The first project I will be using Ruby on rails as the backend and React / Typscript for the frontend. I want to create a travel blog for myself as I am going to go on a long Japan trip and would love to keep everything documented once I get back. I plan to use this for all my upcoming trips going forward. The second project will be Python/Django and React/Typescript. This will be a more data structured project. I havent exactly decided what the end product will be, but I will be connecting to a cryptocurrency API to track prices & different cryptocurrency data. I decided to work on getting the Travel Blog up and running so that was my main focus today. I was able to get a lot of the backend work in rails done and will need to create the project on React as well.'
+    },
+
+    { 
       date: 'Febraury 27th, 2025',
       title: 'Blog Post 20',
       leetcode: '6 Leetcode Javascript questions',
