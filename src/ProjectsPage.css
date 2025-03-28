@@ -18,13 +18,22 @@
 }
 
 .header-project-zen {
-  color: black !important
+  color: black !important;
+  text-decoration: underline;
 }
 
 .image-zen {
   display: flex;
   height: auto;
   width: auto;
+}
+
+.title-zen {
+  display: flex;
+  flex-direction: column;
+  color: black !important;
+  align-items: start;
+  margin-left: 15px;
 }
 
 /* Project item styling */
@@ -35,7 +44,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   /* Allow for height to grow with content */
   height: auto;
@@ -55,7 +64,6 @@
 .project-item p {
   font-size: 1rem;
   color: #666;
-  margin-bottom: 15px;
 }
 
 .project-item a {
@@ -63,7 +71,6 @@
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
-  padding: 15px;
 }
 
 .project-item a:hover {
@@ -76,11 +83,20 @@
   /* Ensure the image scales with the container */
   height: auto;
   /* Maintain the aspect ratio */
+  padding: 20px;
   border-radius: 8px;
   margin-top: 20px;
   object-fit: contain;
   /* Ensures the image fits without cropping */
   max-height: 300px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: start;
+
 }
 
 /* Mobile responsiveness */
