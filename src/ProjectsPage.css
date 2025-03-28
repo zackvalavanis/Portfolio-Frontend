@@ -99,44 +99,42 @@
   align-items: start;
 }
 
-/* Frontend & Backend Section */
+
 .frontend-backend {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding: 20px;
-  gap: 20px;
-  text-decoration: none;
+  gap: 10px;
+  padding: 30px
 }
 
-/* Buttons */
 .frontend,
 .backend {
+  display: flex;
+  flex-direction: row;
+  border: solid 3px black;
+  /* Adjust border width here (3px for example) */
   border-radius: 5px;
-  border: solid;
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
-  transition: background-color 0.3s, color 0.3s;
+  /* You can adjust the radius for a rounded border */
+  background-color: black !important;
+  color: white !important;
   text-decoration: none;
-  display: inline-block;
+  padding: 12px 25px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-.frontend a,
-.backend a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
 
-/* Hover Effects */
 .frontend:hover,
 .backend:hover {
-  background-color: white;
-  color: black;
+  text-decoration: none !important;
+  background-color: white !important;
+  color: black !important;
+
 }
+
+
+
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
