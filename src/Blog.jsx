@@ -76,6 +76,14 @@ export function Blog() {
   const blogPosts = [
 
     { 
+      date: 'April 3rd, 2025',
+      title: 'Blog Post 22',
+      leetcode: '4 Leetcode Questions',
+      skills: 'Javascript, CSS, Ruby',
+      content: 'After a much needed vacation and break from coding, I returned and have started a new project. To get myself back into the swing of coding, I decided to do a travel blog with photographs of my travels and vacations throughout my life. This is something I want to keep up with and a place I would like to store photos on for a long time to come.'
+    },
+
+    { 
       date: 'March 7th, 2025',
       title: 'Blog Post 21',
       leetcode: '9 Leetcode Javascript questions, 3 python questions, 2 ruby questions',
