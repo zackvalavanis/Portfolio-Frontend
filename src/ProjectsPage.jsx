@@ -42,7 +42,7 @@ export function ProjectsPage() {
               />
             </Link>
             <p>
-              <strong>Zen Rolls</strong> A restaurant-themed website built with a Ruby on Rails backend and a React, JavaScript, and TypeScript frontend...
+              <strong>HTML & CSS Web Design</strong> This is a web design project that I wanted to do to showcase my ability to create a frontedn using both HTML and CSS. 
             </p>
             <p className='title-zen'><strong>Tech Stack:</strong></p>
             <ul className='list'>
