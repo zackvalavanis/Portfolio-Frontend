@@ -9,6 +9,12 @@
   font-family: 'Inter', sans-serif;
 }
 
+.container-all {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .card1 {
   display: flex;
   justify-content: center;

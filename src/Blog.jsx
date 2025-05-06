@@ -76,7 +76,11 @@ export function Blog() {
   const blogPosts = [
 
     {
-      Date: '5/6/2025'
+      date: '5/6/2025',
+      title: '',
+      content: '',
+      leetcode: '',
+      skills: '',
     }
   ];
 
@@ -92,7 +96,8 @@ export function Blog() {
   };
 
    return (
-    <div>
+    <div className='page-container'>
+    <div className='container-all'>
       {currentPosts.map((post, index) => (
         <BlogCard key={index} {...post} />
       ))}
@@ -105,6 +110,7 @@ export function Blog() {
           Next
         </button>
       </div>
+    </div>
     </div>
   );
 }
