@@ -47,7 +47,7 @@ export function MainPage() {
     <div className='main-page'>
     <div id="particles-js" style={{ position: 'absolute', width: '100%', height: '100%', zIndex: -1 }}></div>
       <h1 className='my-name'><b>Hello,</b></h1>
-      <h2 className='my-name2'><b>I'm Zack Valavanis</b></h2>
+      <h2 className='my-name2'><b>I&apos;m Zack Valavanis</b></h2>
       <div className='button-container'>
       <a className= 'button-about' href='#about'>
       <button>About Me</button>

@@ -3,76 +3,53 @@
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  padding: 0px;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .tech-container {
-  background-color: rgba(0, 0, 0, 0.577);
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  gap: 40px;
 }
 
 .main-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  font-size: 2em;
-  /* Added for better visibility */
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.frontend-tech,
-.backend-tech,
-.infrastructure {
-  font-size: 25px;
-  padding: 40px;
-  /* Increased margin for spacing between sections */
-}
-
-
-.container2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.section-title {
+  padding-left: 20px;
+  font-size: 1.8em;
+  margin-top: 20px;
 }
 
 .card-wrapper {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
-  padding: 20px;
+}
+
+.card-link {
+  text-decoration: none;
 }
 
 .card-tech {
-  text-decoration: none;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.7);
   width: 250px;
-  /* Fixed width */
   height: 75px;
-  /* Fixed height */
   display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  /* Added rounded corners for better aesthetics */
-  transition: transform 0.3s ease;
-  /* Smooth hover effect */
-}
-
-.card-tech:hover {
-  transform: scale(1.02);
 }
 
 .card-content {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
+  padding: 8px !important;
 }
 
 .card-media {
@@ -81,64 +58,8 @@ body {
   object-fit: contain;
 }
 
-.card-media-large {
-  height: 35px;
-  width: 35px;
-  object-fit: contain;
-}
-
-@media (hover:none) {
-  .card-tech:hover {
-    transform: none
-  }
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .card-wrapper {
-    justify-content: center;
-    /* Center cards on smaller screens */
-    gap: 15px;
-  }
-
-  .main-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-size: 1.5em;
-    /* Added for better visibility */
-  }
-
-  .card-tech {
-    width: 100%;
-    /* Make cards full-width on small screens */
-    padding: 15px;
-  }
-
-  .frontend-tech,
-  .backend-tech,
-  .infrastructure {
-    font-size: 20px;
-    align-items: center;
-    text-align: center;
-  }
-
-  .card-tech:hover {
-    transform: none;
-  }
-}
-
-@media (max-width: 480px) {
-
-  .frontend-tech,
-  .backend-tech,
-  .infrastructure {
-    font-size: 18px;
-    /* Smaller font size for even smaller screens */
-  }
-
-  .card-tech:hover {
-    transform: none;
-  }
+.card-text {
+  color: black;
+  line-height: 1;
+  font-weight: 600;
 }
